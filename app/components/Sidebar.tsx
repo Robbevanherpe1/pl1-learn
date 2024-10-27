@@ -17,7 +17,7 @@ export default function Sidebar() {
   };
 
   return (
-    <aside className="w-64 bg-gray-900 text-gray-200 min-h-screen p-6 border-r border-gray-700 shadow-lg rounded-r-3xl">
+    <aside className="w-64 text-gray-200 min-h-screen p-6 border-r border-gray-700 shadow-lg rounded-r-3xl">
       <Link href="/" className="text-2xl font-bold mb-8 text-indigo-400 hover:text-indigo-500 transition duration-200">
         Chapters Overview
       </Link>

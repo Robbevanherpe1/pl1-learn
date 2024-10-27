@@ -8,7 +8,7 @@ export default function Home() {
   ];
 
   return (
-    <div className="flex flex-col items-center min-h-screen p-8 bg-gray-900 text-gray-200">
+    <div className="flex flex-col items-center min-h-screen p-8  text-gray-200">
       <h1 className="text-4xl font-extrabold mb-4 text-indigo-400">
         Next.js Learning Path
       </h1>
