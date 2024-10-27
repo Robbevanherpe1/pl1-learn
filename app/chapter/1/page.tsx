@@ -1,3 +1,4 @@
+import PLIExercise from "../../exercises/1/PLIExercise";
 export default function Chapter1() {
   return (
     <div className="flex flex-col items-center p-8 min-h-screen bg-gray-900 text-gray-200">
@@ -83,6 +84,19 @@ export default function Chapter1() {
           <p className="text-gray-300">
             Learn the difference between static and dynamic rendering, and when to use each approach in Next.js for optimal performance.
           </p>
+
+          {/* PL/I Exercise */}
+            <div className="w-full max-w-2xl mb-12">
+            <h2 className="text-2xl font-semibold text-indigo-300 mb-4">
+              Exercise: Write a PL/I Program
+            </h2>
+            <PLIExercise />
+          </div>
+
+
+
+
+
         </section>
       </div>
     </div>
