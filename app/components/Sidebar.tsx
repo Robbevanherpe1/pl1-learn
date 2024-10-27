@@ -18,7 +18,9 @@ export default function Sidebar() {
 
   return (
     <aside className="w-64 bg-gray-900 text-gray-200 h-screen p-6 border-r border-gray-700 shadow-lg rounded-r-3xl">
-      <h2 className="text-2xl font-bold mb-6 text-indigo-400">Chapters Overview</h2>
+      <Link href="/" className="text-2xl font-bold mb-8 text-indigo-400 hover:text-indigo-500 transition duration-200">
+        Chapters Overview
+      </Link>
       <ul className="space-y-4">
         {chapters.map((chapter) => (
           <li key={chapter.id} className="pb-2">
