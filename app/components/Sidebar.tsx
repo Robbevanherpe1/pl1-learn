@@ -23,18 +23,26 @@ export default function Sidebar() {
         {chapters.map((chapter) => (
           <li key={chapter.id} className="pb-2">
             <div className="rounded-lg bg-gray-800 p-4 hover:bg-gray-700 transition duration-200 ease-in-out">
-              <button
-                onClick={() => toggleChapter(chapter.id)}
-                className="flex items-center justify-between w-full text-left text-lg font-semibold text-gray-300 hover:text-indigo-400 focus:outline-none transition duration-200"
-              >
-                {chapter.title}
-                <span className="text-indigo-400">{openChapters[chapter.id] ? "-" : "+"}</span>
-              </button>
+              <div className="flex items-center justify-between w-full">
+                <Link href={`/chapter/${chapter.id}`} className="text-lg font-semibold text-gray-300 hover:text-indigo-400">
+                  {chapter.title}
+                </Link>
+                <button
+                  onClick={(e) => {
+                    e.stopPropagation();
+                    toggleChapter(chapter.id);
+                  }}
+                  className="text-indigo-400 focus:outline-none hover:text-indigo-500 transition duration-200"
+                  aria-label="Toggle dropdown"
+                >
+                  {openChapters[chapter.id] ? "-" : "+"}
+                </button>
+              </div>
               {openChapters[chapter.id] && (
                 <ul className="ml-4 mt-3 space-y-1 text-gray-400">
                   {chapter.subContent.map((sub, index) => (
                     <li key={index} className="text-sm pl-2 border-l border-gray-600 rounded-md hover:bg-gray-700 transition duration-200 ease-in-out">
-                      <Link href={`/chapter/${chapter.id}`}>
+                      <Link href={`/chapter/${chapter.id}#${sub.replace(/\s+/g, "-").toLowerCase()}`}>
                         <span className="hover:text-indigo-400 transition duration-200 pl-2">{sub}</span>
                       </Link>
                     </li>
