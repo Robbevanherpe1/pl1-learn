@@ -5,9 +5,9 @@ import { useState } from "react";
 
 export default function Sidebar() {
   const chapters = [
-    { id: 1, title: "Chapter 1: Introduction to Next.js", subContent: ["What is Next.js?", "Features", "Getting Started"] },
-    { id: 2, title: "Chapter 2: Routing in Next.js", subContent: ["Pages and Routes", "Dynamic Routing", "Nested Routes"] },
-    { id: 3, title: "Chapter 3: Components and Props", subContent: ["Using Components", "Props in Next.js", "Reusability"] },
+    { id: 1, title: "Chapter 1: Introduction to PL/1", subContent: ["What is PL/1?", "Features", "Getting Started"] },
+    { id: 2, title: "Chapter 2: Basics of PL/1", subContent: ["Pages and Routes", "Dynamic Routing", "Nested Routes"] },
+    { id: 3, title: "Chapter 3: Loops and recursion", subContent: ["Using Components", "Props in Next.js", "Reusability"] },
   ];
 
   const [openChapters, setOpenChapters] = useState<{ [key: number]: boolean }>({});
@@ -18,7 +18,7 @@ export default function Sidebar() {
 
   return (
     <aside className="w-64 text-gray-200 min-h-screen p-6 border-r border-gray-700 shadow-lg rounded-r-3xl">
-      <Link href="/" className="text-2xl font-bold mb-8 text-indigo-400 hover:text-indigo-500 transition duration-200">
+      <Link href="/" className="text-2xl font-bold mb-8 text-indigo-400 hover:text-indigo-500 transition duration-200 mb-8">
         Chapters Overview
       </Link>
       <ul className="space-y-4">

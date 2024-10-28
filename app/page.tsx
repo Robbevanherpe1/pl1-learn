@@ -2,9 +2,9 @@ import Link from "next/link";
 
 export default function Home() {
   const chapters = [
-    { id: 1, title: "Chapter 1: Introduction to Next.js" },
-    { id: 2, title: "Chapter 2: Routing in Next.js" },
-    { id: 3, title: "Chapter 3: Components and Props" },
+    { id: 1, title: "Chapter 1: Introduction to PL/1" },
+    { id: 2, title: "Chapter 2: Basics of PL/1" },
+    { id: 3, title: "Chapter 3: Loops and recursion" },
   ];
 
   return (
@@ -13,7 +13,7 @@ export default function Home() {
         Next.js Learning Path
       </h1>
       <p className="text-center max-w-xl mb-8 text-gray-300">
-        Welcome to the Next.js learning hub! This guide will help you master the essentials of Next.js, from routing and components to data fetching. Start with the basics and progress through each chapter to enhance your skills.
+        Welcome to the PL1 learning hub! This guide will help you master the essentials of Next.js, from routing and components to data fetching. Start with the basics and progress through each chapter to enhance your skills.
       </p>
 
       <div className="w-full max-w-md mb-12">
