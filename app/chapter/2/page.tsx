@@ -5,7 +5,7 @@ export default function Chapter2() {
         Chapter 2: Getting Started with PL/I Programming
       </h1>
       <p className="text-center max-w-2xl text-lg text-gray-300 mb-8">
-        This chapter will guide you through setting up a PL/I environment, writing your first PL/I program, and exploring the language's syntax and structure. With a solid understanding of these foundations, you’ll be prepared to tackle more complex programming tasks in PL/I.
+        This chapter will guide you through setting up a PL/I environment, writing your first PL/I program, and exploring the language&apos;s syntax and structure. With a solid understanding of these foundations, you&rsquo;ll be prepared to tackle more complex programming tasks in PL/I.
       </p>
 
       <div className="max-w-2xl text-gray-300 space-y-8">
@@ -30,13 +30,12 @@ export default function Chapter2() {
           </li>
         </ul>
 
-        {/* Sections with exact IDs for linking */}
         <section id="setting-up-the-pli-environment" className="mb-8">
           <h3 className="text-xl font-semibold text-indigo-300 mb-2">
             Setting up the PL/I Environment
           </h3>
           <p className="text-gray-300">
-            To start programming in PL/I, you’ll need an environment that supports it, which typically means an IBM mainframe or a compatible emulator. Begin by installing the necessary PL/I compiler (e.g., IBM Enterprise PL/I) and any required libraries.
+            To start programming in PL/I, you&rsquo;ll need an environment that supports it, which typically means an IBM mainframe or a compatible emulator. Begin by installing the necessary PL/I compiler (e.g., IBM Enterprise PL/I) and any required libraries.
           </p>
           <p className="text-gray-300">
             Access to the mainframe, if used, may require setting up an emulator (such as Hercules for personal systems) or accessing an IBM mainframe environment provided by your organization. Familiarize yourself with the command line or interactive development environments like IBM Developer for z/OS, as these tools streamline development and debugging processes.
@@ -59,7 +58,7 @@ export default function Chapter2() {
             First Program: Hello World
           </h3>
           <p className="text-gray-300">
-            Writing a simple “Hello World” program is a good starting point for understanding PL/I’s syntax and structure. Here’s a basic example:
+            Writing a simple &ldquo;Hello World&rdquo; program is a good starting point for understanding PL/I&rsquo;s syntax and structure. Here&rsquo;s a basic example:
           </p>
           <pre className="bg-gray-800 p-4 rounded text-sm overflow-auto mb-4">
             <code>
@@ -75,7 +74,7 @@ export default function Chapter2() {
           <ul className="list-disc list-inside pl-4 text-gray-300">
             <li><strong>HELLO:</strong> The program name, defined before the `PROC` keyword.</li>
             <li><strong>PROC OPTIONS(MAIN):</strong> Indicates this is the main entry procedure of the program.</li>
-            <li><strong>PUT SKIP LIST:</strong> Outputs “Hello, World!” to the console with a line break (`SKIP`).</li>
+            <li><strong>PUT SKIP LIST:</strong> Outputs &ldquo;Hello, World!&rdquo; to the console with a line break (`SKIP`).</li>
             <li><strong>END HELLO;</strong> Closes the procedure named HELLO.</li>
           </ul>
           <p className="text-gray-300">
@@ -120,7 +119,7 @@ export default function Chapter2() {
 
           <h4 className="text-lg font-semibold text-indigo-300 mb-2">Error Handling</h4>
           <p className="text-gray-300">
-            One of PL/I's unique features is its advanced error handling with the `ON` condition. You can use it to define specific responses to errors directly within the program.
+            One of PL/I&apos;s unique features is its advanced error handling with the `ON` condition. You can use it to define specific responses to errors directly within the program.
           </p>
           <pre className="bg-gray-800 p-4 rounded text-sm overflow-auto mb-4">
             <code>
