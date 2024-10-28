@@ -4,6 +4,7 @@ import "./globals.css";
 import Sidebar from "./components/Sidebar";
 import { Analytics } from "@vercel/analytics/react"
 import { SpeedInsights } from '@vercel/speed-insights/next';
+import DonateButton from './components/donate';
 
 const geistSans = localFont({
   src: "./fonts/GeistVF.woff",
@@ -30,7 +31,8 @@ export default function RootLayout({
     <html lang="en">
       <body className={`${geistSans.variable} ${geistMono.variable} antialiased flex`}>
         {/* Sidebar */}
-        <Sidebar />
+        <Sidebar/>
+        <DonateButton/>
 
         {/* Main Content */}
         <main className="flex-1 p-8 min-h-screen">
