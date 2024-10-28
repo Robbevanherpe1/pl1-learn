@@ -8,14 +8,6 @@ export default function Chapter1() {
         PL/I (Programming Language One) is a versatile language developed by IBM in the 1960s. Known for its robust ability to handle both business and scientific applications, PL/I continues to serve industries that require dependable mainframe operations. This chapter covers the history, technical aspects, and modern applications of PL/I in depth, illustrating its foundational role in mainframe programming and system reliability.
       </p>
 
-      <div className="w-full max-w-2xl mb-12">
-        <img
-          src="/chapter1-overview.jpg"
-          alt="Chapter 1 Overview"
-          className="w-full rounded-lg shadow-lg"
-        />
-      </div>
-
       <div className="max-w-2xl text-gray-300 space-y-8">
         <h2 className="text-2xl font-semibold text-indigo-300 mb-4">
           Key Topics Covered

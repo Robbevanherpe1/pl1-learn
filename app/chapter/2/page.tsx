@@ -8,14 +8,6 @@ export default function Chapter2() {
         This chapter will guide you through setting up a PL/I environment, writing your first PL/I program, and exploring the language's syntax and structure. With a solid understanding of these foundations, you’ll be prepared to tackle more complex programming tasks in PL/I.
       </p>
 
-      <div className="w-full max-w-2xl mb-12">
-        <img
-          src="/chapter2-overview.jpg"
-          alt="Chapter 2 Overview"
-          className="w-full rounded-lg shadow-lg"
-        />
-      </div>
-
       <div className="max-w-2xl text-gray-300 space-y-8">
         <h2 className="text-2xl font-semibold text-indigo-300 mb-4">
           Key Topics Covered
