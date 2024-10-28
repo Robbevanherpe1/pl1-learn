@@ -18,7 +18,7 @@ export default function Sidebar() {
 
   return (
     <aside className="w-64 text-gray-200 min-h-screen p-6 border-r border-gray-700 shadow-lg rounded-r-3xl">
-      <Link href="/" className="text-2xl font-bold mb-8 text-indigo-400 hover:text-indigo-500 transition duration-200 mb-8">
+      <Link href="/" className="text-2xl  mb-4 text-indigo-400 hover:text-indigo-500 transition duration-200 mb-8">
         Chapters Overview
       </Link>
       <ul className="space-y-4">
