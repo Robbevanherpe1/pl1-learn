@@ -93,10 +93,6 @@ export default function Chapter1() {
             <PLIExercise />
           </div>
 
-
-
-
-
         </section>
       </div>
     </div>

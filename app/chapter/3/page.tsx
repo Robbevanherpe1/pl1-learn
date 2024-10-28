@@ -2,7 +2,7 @@ export default function Chapter3() {
   return (
     <div className="flex flex-col items-center p-8 min-h-screen text-gray-200">
       <h1 className="text-4xl font-extrabold mb-6 text-indigo-400">
-        Chapter 1: Introduction to Next.js
+        Chapter 3: Introduction to Next.js
       </h1>
       <p className="text-center max-w-2xl text-lg text-gray-300 mb-8">
         Dive into the world of Next.js, a powerful framework for building optimized React applications. In this chapter, we’ll cover the basics, including setup, page structure, and the key benefits that make Next.js a popular choice for developers.
