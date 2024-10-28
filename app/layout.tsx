@@ -1,7 +1,6 @@
 import type { Metadata } from "next";
 import localFont from "next/font/local";
 import "./globals.css";
-import { Analytics } from "@vercel/analytics/react";
 import Sidebar from "./components/Sidebar";
 
 const geistSans = localFont({
@@ -34,7 +33,6 @@ export default function RootLayout({
         {/* Main Content */}
         <main className="flex-1 p-8 min-h-screen">
           {children}
-          <Analytics />
         </main>
       </body>
     </html>
