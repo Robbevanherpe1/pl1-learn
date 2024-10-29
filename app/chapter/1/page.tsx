@@ -12,6 +12,33 @@ export default function Chapter1() {
         <h2 className="text-2xl font-semibold text-indigo-300 mb-4">
           Key Topics Covered
         </h2>
+        <ul className="list-disc list-inside text-lg">
+          <li>
+            <a href="#history-evolution" className="text-indigo-300">
+              History and Evolution
+            </a>
+          </li>
+          <li>
+            <a href="#importance-modern-systems" className="text-indigo-300">
+              Importance in Modern Systems
+            </a>
+          </li>
+          <li>
+            <a href="#applications" className="text-indigo-300">
+              Applications of PL/I in Various Fields
+            </a>
+          </li>
+          <li>
+            <a href="#technical-features" className="text-indigo-300">
+              Technical Features and Syntax
+            </a>
+          </li>
+          <li>
+            <a href="#mainframe-integration" className="text-indigo-300">
+              Integration with IBM Mainframe
+            </a>
+          </li>
+        </ul>
 
         <section id="history-evolution" className="mb-8">
           <h3 className="text-xl font-semibold text-indigo-300 mb-2">
@@ -30,10 +57,10 @@ export default function Chapter1() {
             Importance in Modern Systems
           </h3>
           <p className="text-gray-300">
-            PL/I’s relevance persists due to its efficiency in managing large-scale, data-heavy operations which are typical of financial institutions, healthcare systems, and governmental data processing centers. Its robust syntax and ability to perform multitasking make it especially suitable for IBM mainframes, where it handles transaction processing, batch processing, and other critical workloads seamlessly.
+            PL/I’s relevance persists due to its efficiency in managing large-scale, data-heavy operations typical of financial institutions, healthcare systems, and governmental data processing centers. Its robust syntax and ability to perform multitasking make it especially suitable for IBM mainframes, where it handles transaction processing, batch processing, and other critical workloads seamlessly.
           </p>
           <p className="text-gray-300">
-            With its built-in concurrency controls and system-level access, PL/I enables systems to perform parallel processing, a feature that remains crucial in environments that demand high availability and stability. Modern enterprises continue to rely on PL/I’s extensive error handling and debugging capabilities, which reduce downtime and improve system reliability.
+            With its built-in concurrency controls and system-level access, PL/I enables systems to perform parallel processing, a feature crucial in environments demanding high availability and stability. Modern enterprises continue to rely on PL/I’s extensive error handling and debugging capabilities, which reduce downtime and improve system reliability.
           </p>
         </section>
 
@@ -54,7 +81,7 @@ export default function Chapter1() {
             Technical Features and Syntax
           </h3>
           <p className="text-gray-300">
-            PL/I includes extensive data types and structures, including fixed and floating-point arithmetic, character strings, and bit strings, which allow it to handle diverse and complex data. Its control structures, such as `DO`, `IF`, `SELECT`, and `ON ERROR`, provide a high degree of control over program execution.
+            PL/I includes extensive data types and structures, including fixed and floating-point arithmetic, character strings, and bit strings, allowing it to handle diverse and complex data. Its control structures, such as `DO`, `IF`, `SELECT`, and `ON ERROR`, provide a high degree of control over program execution.
           </p>
           <p className="text-gray-300">
             PL/I’s multitasking capability is one of its hallmark features, allowing a single program to run multiple tasks concurrently. This is especially useful in high-performance computing environments, where parallel execution is key to managing vast amounts of data. Additionally, PL/I’s structured exception handling (`ON`, `GO TO`, etc.) allows for sophisticated error handling and recovery, a necessity for mission-critical applications.
