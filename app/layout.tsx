@@ -29,7 +29,14 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="en">
-      <body className={`${geistSans.variable} ${geistMono.variable} antialiased flex`}>
+      <body
+        className={`${geistSans.variable} ${geistMono.variable} antialiased flex`}
+        style={{
+          transform: "scale(0.8)",
+          transformOrigin: "top left",
+          minWidth: "125%", // Counteract the scaling effect
+        }}
+      >
         {/* Sidebar */}
         <Sidebar/>
         <DonateButton/>
