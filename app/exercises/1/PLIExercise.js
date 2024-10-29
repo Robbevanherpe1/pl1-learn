@@ -9,7 +9,6 @@ export default function PLIExercise() {
   const [showAnswer, setShowAnswer] = useState(false);
 
   const correctPLIAnswer = `
-/* PL/I program to add 2 + 2 */
 DECLARE SUM FIXED BIN(15);
 SUM = 2 + 2;
 PUT SKIP LIST('The sum is:', SUM);
