@@ -80,11 +80,14 @@ export default function Sidebar() {
   };
 
   // Show only the current, previous, and next chapters
-  const visibleChapters = chapters.filter(
-    (chapter) =>
-      currentChapterId !== null &&
-      Math.abs(chapter.id - currentChapterId) <= 1
+  const visibleChapters = chapters.filter((chapter) => 
+    currentChapterId !== null &&
+    (
+      (currentChapterId === 1 && chapter.id <= 3) || // Show Chapters 1, 2, and 3 if on Chapter 1
+      Math.abs(chapter.id - currentChapterId) <= 1   // Show current, previous, and next for other chapters
+    )
   );
+  
 
   // Hide sidebar if on main page
   if (pathname === mainPagePath) {
