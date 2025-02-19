@@ -1,4 +1,4 @@
-import PLIExercise from "../../exercises/1/PLIExercise";
+import PLIExercise from "../../exercises/1/PLIExercise_1";
 export default function Chapter14() {
     return (
       <div className="flex flex-col items-center p-8 min-h-screen text-gray-200">

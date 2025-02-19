@@ -1,3 +1,4 @@
+import PLIExercise from "../../exercises/1/PLIExercise_1";
 export default function Chapter2() {
   return (
     <div className="flex flex-col items-center p-8 min-h-screen text-gray-200">
@@ -131,6 +132,14 @@ export default function Chapter2() {
           <p className="text-gray-300">
             This block will execute if an error is encountered, providing a custom message and potentially allowing recovery or graceful exit strategies.
           </p>
+        </section>
+        <section>
+        <div className="w-full max-w-2xl mb-12">
+          <h2 className="text-xl font-semibold text-indigo-300 mb-4">
+            Exercise: xx
+          </h2>
+            <PLIExercise />
+          </div>
         </section>
       </div>
     </div>
